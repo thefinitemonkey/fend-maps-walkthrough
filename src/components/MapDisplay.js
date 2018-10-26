@@ -54,7 +54,6 @@ class MapDisplay extends Component {
         // and the markers themselves that can be used for reference in interactions.
         // Add the markers to the map along the way.
         let markerProps = [];
-        console.log("map: ", this.state.map);
         let markers = locations.map((location, index) => {
             let mProps = {
                 key: index,
