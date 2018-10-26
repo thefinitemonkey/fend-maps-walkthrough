@@ -37,7 +37,7 @@ class MapDisplay extends Component {
         }
 
         // Make sure there's a selected index
-        if (props.selectedIndex === null) {
+        if (props.selectedIndex === null || typeof(props.selectedIndex) === "undefined") {
             return;
         };
     }
