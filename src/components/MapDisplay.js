@@ -37,9 +37,12 @@ class MapDisplay extends Component {
         }
 
         // Make sure there's a selected index
-        if (props.selectedIndex === null) {
+        if (props.selectedIndex === null || typeof(props.selectedIndex) === "undefined") {
             return;
         };
+
+        // Treat the marker as clicked
+        this.onMarkerClick(this.state.markerProps[props.selectedIndex], this.state.markers[props.selectedIndex]);
     }
 
     mapReady = (props, map) => {
