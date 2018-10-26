@@ -1,11 +1,11 @@
 # FEND Project 7 (Maps)
 
 ## Overview
-This is and end-to-end walkthrough of building Project 7 (Maps) in Udacity's Front End Nano-Degree program. This project uses React along with some APIs and other external dependencies. Namely:
+This is and end-to-end walkthrough of building Project 7 (Maps) in Udacity's Front End Nano-Degree program. There are seven branches that show, in order, the steps taken to complete this project. This project uses React along with some APIs and other external dependencies. Namely:
 
 * Google Maps
 * FourSquare
-* Font Awesome
+* Font Awesome for the hamburger icon
 * React Material-UI for the Drawer
 * google-maps-react for primary map display
 
