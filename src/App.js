@@ -78,8 +78,7 @@ class App extends Component {
           locations={this.state.filtered}
           open={this.state.open}
           toggleDrawer={this.toggleDrawer}
-          filterLocations={this.updateQuery}
-          clickListItem={this.clickListItem}/>
+          filterLocations={this.updateQuery}/>
       </div>
     );
   }
