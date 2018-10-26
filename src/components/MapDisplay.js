@@ -112,7 +112,7 @@ class MapDisplay extends Component {
                                 <a href={amProps.url}>See website</a>
                             )
                             : ""}
-                        }
+                        
                     </div>
                 </InfoWindow>
             </Map>
